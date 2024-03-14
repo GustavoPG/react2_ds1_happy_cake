@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(238, 239, 239);
+}
+
+.my-cake {
+    width: 16rem;
+    text-align: center;
+    transition: transform .4s;
+}
+
+.my-cake:hover {
+    transform: scale(1.1);
+}
+
+.my-bold {
+    font-weight: 900;
+}
+
+/* Pantallas pequeñas (hasta 767px) */
+@media only screen and (max-width: 767px) {
+    .my-button {
+        width: 100%;
+    }
+}
+
+/* Pantallas medianas (768px a 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .my-button {
+        width: 100%;
+    }
+}
+
+/* Pantallas grandes (1024px en adelante) */
+@media only screen and (min-width: 1024px) {
+    .my-button {
+        width: 30%;
+    }
+}
